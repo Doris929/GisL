@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['featurecount_94',['featureCount',['../classGisL_1_1LayerPropertyTable.html#a64624cd2e5f1d1b6b9dc2de141ad15b1',1,'GisL::LayerPropertyTable::featureCount()'],['../classGisL_1_1VectorLayer.html#aa5046b3b006c4a578d470e145e255cbb',1,'GisL::VectorLayer::featureCount()']]],
+  ['featurename_95',['featureName',['../classGisL_1_1AbstractGeometry.html#a445f2a7ff930974eb5a366628be07c61',1,'GisL::AbstractGeometry']]],
+  ['featureproperty_96',['FeatureProperty',['../classGisL_1_1FeatureProperty.html#a402b7c4bfc17d73a3603f8a98afb31d3',1,'GisL::FeatureProperty::FeatureProperty()'],['../classGisL_1_1FeatureProperty.html',1,'GisL::FeatureProperty']]],
+  ['featureproperty_2ecpp_97',['featureproperty.cpp',['../featureproperty_8cpp.html',1,'']]],
+  ['featureproperty_2eh_98',['featureproperty.h',['../featureproperty_8h.html',1,'']]],
+  ['fid_99',['fid',['../classGisL_1_1LayerPropertyTable.html#af64433bcd413a6326d579f66c1ae8348',1,'GisL::LayerPropertyTable::fid()'],['../classGisL_1_1VectorFeature.html#a51b28aeff1b17a1fef9e7b9797b7e220',1,'GisL::VectorFeature::fid()'],['../classGisL_1_1VectorLayer.html#acb176e729b944ea9b90618edd9f7e4d2',1,'GisL::VectorLayer::fid()'],['../classGisL_1_1VectorProvider.html#ab57f80cf1a2d44f70e01a96a29630fc6',1,'GisL::VectorProvider::fid()']]],
+  ['fidinfeature_100',['fidInFeature',['../classGisL_1_1VectorFeature.html#a5151823d212fde34fcead7df870a7c99',1,'GisL::VectorFeature']]],
+  ['fidinlayer_101',['fidInLayer',['../classGisL_1_1VectorLayer.html#a543ec820c7b217d16b4aef5ebb502534',1,'GisL::VectorLayer']]],
+  ['fidinvector_102',['fidInVector',['../classGisL_1_1VectorProvider.html#aae40a5dd8701d0f4e9f22cef4d99acfd',1,'GisL::VectorProvider']]],
+  ['filecodertype_103',['FileCoderType',['../classGisL_1_1DaDecoder.html#a3624faa60bb0c42acf71986a1491f186',1,'GisL::DaDecoder::FileCoderType()'],['../classGisL_1_1DaEncoder.html#a2e32f02daf597aa216d348743fa8b044',1,'GisL::DaEncoder::FileCoderType()']]],
+  ['filename_104',['filename',['../classGisL_1_1Xml.html#a829e9400a1666206364ab72f1e485650',1,'GisL::Xml']]],
+  ['filesize_105',['fileSize',['../classGisL_1_1DaCodecvt.html#ab023e936318ccc46ed2d99ee011a0179',1,'GisL::DaCodecvt']]],
+  ['fill_106',['fill',['../classGisL_1_1TextSymbolizer.html#ab5fc9c583998233b5d000703a7622781',1,'GisL::TextSymbolizer']]],
+  ['fillcolor_107',['fillColor',['../classGisL_1_1TextSymbolizer.html#a1b2e855a9d50a2dfd997488de45b5825',1,'GisL::TextSymbolizer']]],
+  ['findfilesize_108',['findFilesize',['../classGisL_1_1DaDecoder.html#a9695b0edcf3cfe9b358fad536d4ee7cb',1,'GisL::DaDecoder']]],
+  ['firstcommand_109',['firstCommand',['../classGisL_1_1CommandHistory.html#ab881c547254273fe98a561905f6fb937',1,'GisL::CommandHistory']]],
+  ['firstline_110',['firstLine',['../classGisL_1_1ExchangePolygon.html#adced466048c3f8016bc82839fd828fc9',1,'GisL::ExchangePolygon']]],
+  ['firstpoint_111',['firstPoint',['../classGisL_1_1ExchangeLine.html#aba18f3ec91c7914eaa7dace44bcb9d2c',1,'GisL::ExchangeLine']]],
+  ['fontfamily_112',['fontFamily',['../classGisL_1_1TextSymbolizer.html#a935b7dd0ef736a45a70d1e29e42529b2',1,'GisL::TextSymbolizer']]],
+  ['fontsize_113',['fontSize',['../classGisL_1_1TextSymbolizer.html#a15b760e1a4689dacf01a2ea99a8ca8f8',1,'GisL::TextSymbolizer']]]
+];

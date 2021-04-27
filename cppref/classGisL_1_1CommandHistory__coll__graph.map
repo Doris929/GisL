@@ -1,0 +1,5 @@
+<map id="GisL::CommandHistory" name="GisL::CommandHistory">
+<area shape="rect" id="node1" title="command history, easy to undo, realization by firstCommand" alt="" coords="5,213,177,240"/>
+<area shape="rect" id="node2" href="$structGisL_1_1CommandHistory_1_1CommandLink.html" title=" " alt="" coords="5,95,177,136"/>
+<area shape="rect" id="node3" href="$classGisL_1_1Command.html" title=" " alt="" coords="29,5,154,32"/>
+</map>

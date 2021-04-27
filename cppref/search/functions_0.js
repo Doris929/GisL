@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['abstractgeometry_644',['AbstractGeometry',['../classGisL_1_1AbstractGeometry.html#a8b26ade3225ab2331202841e954a2021',1,'GisL::AbstractGeometry::AbstractGeometry()=default'],['../classGisL_1_1AbstractGeometry.html#a7b94be8f51c87f1cbdf5d3580acc269d',1,'GisL::AbstractGeometry::AbstractGeometry(OGRGeometry &amp;p)']]],
+  ['append_645',['append',['../classGisL_1_1ExchangeLine.html#a0ec44590f5c9847061eea3be3302ac52',1,'GisL::ExchangeLine::append()'],['../classGisL_1_1ExchangePolygon.html#a74aa3c0dfdf9d3bfdb2873d01f452f92',1,'GisL::ExchangePolygon::append()'],['../classGisL_1_1LayerPropertyTable.html#a4144d4ac5122f1f5232a131833da6a66',1,'GisL::LayerPropertyTable::append()'],['../classGisL_1_1LayerTree.html#a4a78ed872cafd36a91b195ad980797b8',1,'GisL::LayerTree::append()'],['../classGisL_1_1Log.html#ad90790dbbbc20038717470a67a03e045',1,'GisL::Log::append(const std::string &amp;s)'],['../classGisL_1_1Log.html#a7c3c0f53950d335018d208543b0cb8dc',1,'GisL::Log::append(const QString &amp;s)']]]
+];

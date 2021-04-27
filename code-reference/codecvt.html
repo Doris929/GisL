@@ -1,0 +1,337 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zn-CN, en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>codecvt &mdash; GisL 0.6.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/kfc.png"/>
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Core" href="core/index.html" />
+    <link rel="prev" title="Welcome to GisL&#39;s documentation!" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> GisL
+          
+
+          
+            
+            <img src="../_static/kfc.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.6
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Codecvt</a></li>
+<li class="toctree-l1"><a class="reference internal" href="core/index.html">Core</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gui/index.html">Gui</a></li>
+<li class="toctree-l1"><a class="reference internal" href="utils.html">Utils</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bug.html">Bugs</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">GisL</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>codecvt</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/code-reference/codecvt.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="codecvt">
+<h1>codecvt<a class="headerlink" href="#codecvt" title="Permalink to this headline">¶</a></h1>
+<dl class="cpp class">
+<dt id="_CPPv4N4GisL9DaCodecvtE">
+<span id="_CPPv3N4GisL9DaCodecvtE"></span><span id="_CPPv2N4GisL9DaCodecvtE"></span><span id="GisL::DaCodecvt"></span><span class="target" id="classGisL_1_1DaCodecvt"></span><em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">GisL</span><code class="sig-prename descclassname"><span class="pre">::</span></code></code><code class="sig-name descname"><span class="pre">DaCodecvt</span></code><a class="headerlink" href="#_CPPv4N4GisL9DaCodecvtE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>file operate </p>
+<p>base class of <a class="reference internal" href="#classGisL_1_1DaDecoder"><span class="std std-ref">DaDecoder</span></a> and <a class="reference internal" href="#classGisL_1_1DaEncoder"><span class="std std-ref">DaEncoder</span></a> </p>
+<p>Subclassed by <a class="reference internal" href="#classGisL_1_1DaDecoder"><span class="std std-ref">GisL::DaDecoder</span></a>, <a class="reference internal" href="#classGisL_1_1DaEncoder"><span class="std std-ref">GisL::DaEncoder</span></a></p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp enum">
+<dt id="_CPPv4N4GisL9DaCodecvt11CodecvtModeE">
+<span id="_CPPv3N4GisL9DaCodecvt11CodecvtModeE"></span><span id="_CPPv2N4GisL9DaCodecvt11CodecvtModeE"></span><span class="target" id="classGisL_1_1DaCodecvt_1af32bf24bbafbf72a013f2ec3abb1b1d4"></span><em class="property"><span class="pre">enum</span> </em><code class="sig-name descname"><span class="pre">CodecvtMode</span></code><a class="headerlink" href="#_CPPv4N4GisL9DaCodecvt11CodecvtModeE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>file operate enum </p>
+<p>file operate enum, 1 for ENCODE, and 2 for DECODE </p>
+<p><em>Values:</em></p>
+<dl class="cpp enumerator">
+<dt id="_CPPv4N4GisL9DaCodecvt11CodecvtMode6ENCODEE">
+<span id="_CPPv3N4GisL9DaCodecvt11CodecvtMode6ENCODEE"></span><span id="_CPPv2N4GisL9DaCodecvt11CodecvtMode6ENCODEE"></span><span class="target" id="classGisL_1_1DaCodecvt_1af32bf24bbafbf72a013f2ec3abb1b1d4a31e41fd6de3e7684bf41e6de34805d8b"></span><em class="property"><span class="pre">enumerator</span> </em><code class="sig-name descname"><span class="pre">ENCODE</span></code><a class="headerlink" href="#_CPPv4N4GisL9DaCodecvt11CodecvtMode6ENCODEE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt id="_CPPv4N4GisL9DaCodecvt11CodecvtMode6DECODEE">
+<span id="_CPPv3N4GisL9DaCodecvt11CodecvtMode6DECODEE"></span><span id="_CPPv2N4GisL9DaCodecvt11CodecvtMode6DECODEE"></span><span class="target" id="classGisL_1_1DaCodecvt_1af32bf24bbafbf72a013f2ec3abb1b1d4a1471a0284da0a7cc87bc8356d79fb2c1"></span><em class="property"><span class="pre">enumerator</span> </em><code class="sig-name descname"><span class="pre">DECODE</span></code><a class="headerlink" href="#_CPPv4N4GisL9DaCodecvt11CodecvtMode6DECODEE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4N4GisL9DaCodecvt5clearEv">
+<span id="_CPPv3N4GisL9DaCodecvt5clearEv"></span><span id="_CPPv2N4GisL9DaCodecvt5clearEv"></span><span id="GisL::DaCodecvt::clear"></span><span class="target" id="classGisL_1_1DaCodecvt_1ac7b0a24e2f34dc08199782b64697cf31"></span><span class="pre">void</span> <code class="sig-name descname"><span class="pre">clear</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4GisL9DaCodecvt5clearEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="xrefsect">
+<dt>
+<a class="reference internal" href="bug.html#bug_1_bug000001"><span class="std std-ref"><span class="pre">Bug:</span></span></a></dt>
+<dd><p>SIGTRAP (Trace/breakpoint trap) when delete the last pUnits[i] </p>
+</dd></dl>
+
+</p>
+</dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp class">
+<dt id="_CPPv4N4GisL6DaUnitE">
+<span id="_CPPv3N4GisL6DaUnitE"></span><span id="_CPPv2N4GisL6DaUnitE"></span><span id="GisL::DaUnit"></span><span class="target" id="classGisL_1_1DaUnit"></span><em class="property"><span class="pre">class</span> </em><code class="sig-name descname"><span class="pre">DaUnit</span></code><a class="headerlink" href="#_CPPv4N4GisL6DaUnitE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>unit of char and its index </p>
+</dd></dl>
+
+<dl class="cpp class">
+<dt id="_CPPv4N4GisL9DaDecoderE">
+<span id="_CPPv3N4GisL9DaDecoderE"></span><span id="_CPPv2N4GisL9DaDecoderE"></span><span id="GisL::DaDecoder"></span><span class="target" id="classGisL_1_1DaDecoder"></span><em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">GisL</span><code class="sig-prename descclassname"><span class="pre">::</span></code></code><code class="sig-name descname"><span class="pre">DaDecoder</span></code> <span class="pre">:</span> <em class="property"><span class="pre">public</span></em> <span class="pre">GisL</span><span class="pre">::</span><a class="reference internal" href="#_CPPv4N4GisL9DaCodecvtE" title="GisL::DaCodecvt"><span class="pre">DaCodecvt</span></a><a class="headerlink" href="#_CPPv4N4GisL9DaDecoderE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>decode binary file </p>
+<p>operate binary file, decode and write text file </p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4N4GisL9DaDecoder9DaDecoderENSt6stringE">
+<span id="_CPPv3N4GisL9DaDecoder9DaDecoderENSt6stringE"></span><span id="_CPPv2N4GisL9DaDecoder9DaDecoderENSt6stringE"></span><span id="GisL::DaDecoder::DaDecoder__ss"></span><span class="target" id="classGisL_1_1DaDecoder_1a05f6c664fabda3f2d1e363f53a9c831d"></span><em class="property"><span class="pre">explicit</span></em> <code class="sig-name descname"><span class="pre">DaDecoder</span></code><span class="sig-paren">(</span><span class="pre">std</span><span class="pre">::</span><span class="pre">string</span> <em><span class="pre">binaryFilename</span></em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4GisL9DaDecoder9DaDecoderENSt6stringE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Construct function for <a class="reference internal" href="#classGisL_1_1DaDecoder"><span class="std std-ref">DaDecoder</span></a>. </p>
+<p><dl class="xrefsect">
+<dt>
+<a class="reference internal" href="bug.html#bug_1_bug000002"><span class="std std-ref"><span class="pre">Bug:</span></span></a></dt>
+<dd><p>string can not be in construct </p>
+</dd></dl>
+
+</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>binaryFilename</strong> -- <strong>[in]</strong> </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N4GisL9DaDecoder6decodeEv">
+<span id="_CPPv3N4GisL9DaDecoder6decodeEv"></span><span id="_CPPv2N4GisL9DaDecoder6decodeEv"></span><span id="GisL::DaDecoder::decode"></span><span class="target" id="classGisL_1_1DaDecoder_1a9d06004152fa0f175814e24ec20da9b7"></span><span class="pre">void</span> <code class="sig-name descname"><span class="pre">decode</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4GisL9DaDecoder6decodeEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>decode binary </p>
+</dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-private-functions">Private Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4N4GisL9DaDecoder14loadUnitInFileERNSt8ifstreamE">
+<span id="_CPPv3N4GisL9DaDecoder14loadUnitInFileERNSt8ifstreamE"></span><span id="_CPPv2N4GisL9DaDecoder14loadUnitInFileERNSt8ifstreamE"></span><span id="GisL::DaDecoder::loadUnitInFile__std::ifstreamR"></span><span class="target" id="classGisL_1_1DaDecoder_1aec1e1693c90d0b54fe3494140b476c16"></span><span class="pre">void</span> <code class="sig-name descname"><span class="pre">loadUnitInFile</span></code><span class="sig-paren">(</span><span class="pre">std</span><span class="pre">::</span><span class="pre">ifstream</span> <span class="pre">&amp;</span><em><span class="pre">ifs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4GisL9DaDecoder14loadUnitInFileERNSt8ifstreamE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>do not delete last *ptr in a **ptr </p>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>ifs</strong> -- </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt id="_CPPv4N4GisL9DaDecoder9sortUnitsEv">
+<span id="_CPPv3N4GisL9DaDecoder9sortUnitsEv"></span><span id="_CPPv2N4GisL9DaDecoder9sortUnitsEv"></span><span id="GisL::DaDecoder::sortUnits"></span><span class="target" id="classGisL_1_1DaDecoder_1a9d7c75de67fb2c5a2144384f8831f54c"></span><span class="pre">void</span> <code class="sig-name descname"><span class="pre">sortUnits</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4GisL9DaDecoder9sortUnitsEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>std::sort params are stl containers not *ptr </p>
+</div>
+</dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp class">
+<dt id="_CPPv4N4GisL9DaEncoderE">
+<span id="_CPPv3N4GisL9DaEncoderE"></span><span id="_CPPv2N4GisL9DaEncoderE"></span><span id="GisL::DaEncoder"></span><span class="target" id="classGisL_1_1DaEncoder"></span><em class="property"><span class="pre">class</span> </em><code class="sig-name descname"><span class="pre">DaEncoder</span></code> <span class="pre">:</span> <em class="property"><span class="pre">public</span></em> <span class="pre">GisL</span><span class="pre">::</span><a class="reference internal" href="#_CPPv4N4GisL9DaCodecvtE" title="GisL::DaCodecvt"><span class="pre">DaCodecvt</span></a><a class="headerlink" href="#_CPPv4N4GisL9DaEncoderE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>encode text </p>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="core/index.html" class="btn btn-neutral float-right" title="Core" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../index.html" class="btn btn-neutral float-left" title="Welcome to GisL&#39;s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, Wang Zhiyuan.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['boundary_646',['boundary',['../classGisL_1_1AbstractGeometry.html#a88cec1065af0b6211273f3e3e6b2cc69',1,'GisL::AbstractGeometry::boundary()'],['../classGisL_1_1GeomLineString.html#a41eb556b2846ef6020d051b7c6125b2a',1,'GisL::GeomLineString::boundary()'],['../classGisL_1_1GeomMultiLineString.html#a6f4f04fd409a31f47367dc052902fa5b',1,'GisL::GeomMultiLineString::boundary()'],['../classGisL_1_1GeomMultiPoint.html#a92ab75c79270efc737ce96da1c082c95',1,'GisL::GeomMultiPoint::boundary()'],['../classGisL_1_1GeomMultiPolygon.html#a10254709bfe8172900270f367f60faf0',1,'GisL::GeomMultiPolygon::boundary()'],['../classGisL_1_1GeomPoint.html#af67b947c8624f64c67957f3d2b081504',1,'GisL::GeomPoint::boundary()'],['../classGisL_1_1GeomPolygon.html#af1ce0159f0e2b382f6b2a23bdb3407e4',1,'GisL::GeomPolygon::boundary()'],['../classGisL_1_1VectorFeature.html#aead71e0f74f2ab371c8849604866b26f',1,'GisL::VectorFeature::boundary()']]]
+];

@@ -1,0 +1,8 @@
+<map id="GisL::VectorProvider" name="GisL::VectorProvider">
+<area shape="rect" id="node1" title="basic unit of geometry features" alt="" coords="475,184,628,211"/>
+<area shape="rect" id="node2" href="$classGisL_1_1VectorLayer.html" title=" " alt="" coords="408,95,543,121"/>
+<area shape="rect" id="node3" href="$classGisL_1_1LayerPropertyTable.html" title=" " alt="" coords="199,5,381,32"/>
+<area shape="rect" id="node4" href="$classGisL_1_1SpatialReference.html" title="Coordinate Reference System." alt="" coords="5,5,175,32"/>
+<area shape="rect" id="node5" href="$classGisL_1_1Log.html" title="log of GisL, Singleton design patterns" alt="" coords="581,5,663,32"/>
+<area shape="rect" id="node6" href="$classGisL_1_1VectorFeature.html" title=" " alt="" coords="405,5,553,32"/>
+</map>

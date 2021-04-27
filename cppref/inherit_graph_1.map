@@ -1,0 +1,10 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classGisL_1_1AbstractGeometry.html" title=" " alt="" coords="5,132,183,159"/>
+<area shape="rect" id="node2" href="$classGisL_1_1GeomLineString.html" title=" " alt="" coords="247,5,409,32"/>
+<area shape="rect" id="node3" href="$classGisL_1_1GeomMultiLineString.html" title=" " alt="" coords="231,56,425,83"/>
+<area shape="rect" id="node4" href="$classGisL_1_1GeomMultiPoint.html" title=" " alt="" coords="247,107,409,133"/>
+<area shape="rect" id="node5" href="$classGisL_1_1GeomMultiPolygon.html" title=" " alt="" coords="237,157,419,184"/>
+<area shape="rect" id="node6" href="$classGisL_1_1GeomPoint.html" title=" " alt="" coords="263,208,393,235"/>
+<area shape="rect" id="node7" href="$classGisL_1_1GeomPolygon.html" title=" " alt="" coords="253,259,403,285"/>
+<area shape="rect" id="node8" title=" " alt="" coords="36,5,152,32"/>
+</map>

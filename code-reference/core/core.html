@@ -1,0 +1,307 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zn-CN, en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>1. core &mdash; GisL 0.6.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../../_static/kfc.png"/>
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="2. geometry" href="geometry.html" />
+    <link rel="prev" title="Core" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> GisL
+          
+
+          
+            
+            <img src="../../_static/kfc.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.6
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../codecvt.html">Codecvt</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Core</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">1. core</a></li>
+<li class="toctree-l2"><a class="reference internal" href="geometry.html">2. geometry</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../gui/index.html">Gui</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../utils.html">Utils</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bug.html">Bugs</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">GisL</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html">Core</a> &raquo;</li>
+        
+      <li><span class="section-number">1. </span>core</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/code-reference/core/core.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="core">
+<span id="sec-core"></span><span id="index-0"></span><h1><span class="section-number">1. </span>core<a class="headerlink" href="#core" title="Permalink to this headline">¶</a></h1>
+<dl class="cpp class">
+<dt id="_CPPv4N4GisL14VectorProviderE">
+<span id="_CPPv3N4GisL14VectorProviderE"></span><span id="_CPPv2N4GisL14VectorProviderE"></span><span id="GisL::VectorProvider"></span><span class="target" id="classGisL_1_1VectorProvider"></span><em class="property"><span class="pre">class</span> </em><code class="sig-name descname"><span class="pre">VectorProvider</span></code><a class="headerlink" href="#_CPPv4N4GisL14VectorProviderE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>basic unit of geometry features </p>
+</dd></dl>
+
+<dl class="cpp class">
+<dt id="_CPPv4N4GisL11VectorLayerE">
+<span id="_CPPv3N4GisL11VectorLayerE"></span><span id="_CPPv2N4GisL11VectorLayerE"></span><span id="GisL::VectorLayer"></span><span class="target" id="classGisL_1_1VectorLayer"></span><em class="property"><span class="pre">class</span> </em><code class="sig-name descname"><span class="pre">VectorLayer</span></code><a class="headerlink" href="#_CPPv4N4GisL11VectorLayerE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp class">
+<dt id="_CPPv4N4GisL9LayerTreeE">
+<span id="_CPPv3N4GisL9LayerTreeE"></span><span id="_CPPv2N4GisL9LayerTreeE"></span><span id="GisL::LayerTree"></span><span class="target" id="classGisL_1_1LayerTree"></span><em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">GisL</span><code class="sig-prename descclassname"><span class="pre">::</span></code></code><code class="sig-name descname"><span class="pre">LayerTree</span></code><a class="headerlink" href="#_CPPv4N4GisL9LayerTreeE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-private-static-attributes">Private Static Attributes</p>
+<dl class="cpp var">
+<dt id="_CPPv4N4GisL9LayerTree10_layerTreeE">
+<span id="_CPPv3N4GisL9LayerTree10_layerTreeE"></span><span id="_CPPv2N4GisL9LayerTree10_layerTreeE"></span><span id="GisL::LayerTree::_layerTree__LayerTreeP"></span><span class="target" id="classGisL_1_1LayerTree_1ad0a35fc24fc3e5c33c4fa2976ad8177d"></span><em class="property"><span class="pre">static</span></em> <a class="reference internal" href="#_CPPv4N4GisL9LayerTreeE" title="GisL::LayerTree"><span class="pre">LayerTree</span></a> <span class="pre">*</span><code class="sig-name descname"><span class="pre">_layerTree</span></code> <span class="pre">=</span> <span class="pre">nullptr</span><a class="headerlink" href="#_CPPv4N4GisL9LayerTree10_layerTreeE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Author</strong></dt><dd><p>tau </p>
+</dd>
+<dt><strong>Date</strong></dt><dd><p>12/30/20 </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp class">
+<dt id="_CPPv4N4GisL18LayerPropertyTableE">
+<span id="_CPPv3N4GisL18LayerPropertyTableE"></span><span id="_CPPv2N4GisL18LayerPropertyTableE"></span><span id="GisL::LayerPropertyTable"></span><span class="target" id="classGisL_1_1LayerPropertyTable"></span><em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">GisL</span><code class="sig-prename descclassname"><span class="pre">::</span></code></code><code class="sig-name descname"><span class="pre">LayerPropertyTable</span></code><a class="headerlink" href="#_CPPv4N4GisL18LayerPropertyTableE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4N4GisL18LayerPropertyTable18LayerPropertyTableEi">
+<span id="_CPPv3N4GisL18LayerPropertyTable18LayerPropertyTableEi"></span><span id="_CPPv2N4GisL18LayerPropertyTable18LayerPropertyTableEi"></span><span id="GisL::LayerPropertyTable::LayerPropertyTable__i"></span><span class="target" id="classGisL_1_1LayerPropertyTable_1a77ebe93847a4a27c4d997d5ebbfff6cf"></span><em class="property"><span class="pre">explicit</span></em> <code class="sig-name descname"><span class="pre">LayerPropertyTable</span></code><span class="sig-paren">(</span><span class="pre">int</span> <em><span class="pre">fidOfLayer</span></em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4GisL18LayerPropertyTable18LayerPropertyTableEi" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>init </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>fidOfLayer</strong> -- </p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp class">
+<dt id="_CPPv4N4GisL13VectorFeatureE">
+<span id="_CPPv3N4GisL13VectorFeatureE"></span><span id="_CPPv2N4GisL13VectorFeatureE"></span><span id="GisL::VectorFeature"></span><span class="target" id="classGisL_1_1VectorFeature"></span><em class="property"><span class="pre">class</span> </em><code class="sig-name descname"><span class="pre">VectorFeature</span></code><a class="headerlink" href="#_CPPv4N4GisL13VectorFeatureE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp class">
+<dt id="_CPPv4N4GisL15FeaturePropertyE">
+<span id="_CPPv3N4GisL15FeaturePropertyE"></span><span id="_CPPv2N4GisL15FeaturePropertyE"></span><span id="GisL::FeatureProperty"></span><span class="target" id="classGisL_1_1FeatureProperty"></span><em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">GisL</span><code class="sig-prename descclassname"><span class="pre">::</span></code></code><code class="sig-name descname"><span class="pre">FeatureProperty</span></code><a class="headerlink" href="#_CPPv4N4GisL15FeaturePropertyE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4N4GisL15FeatureProperty15FeaturePropertyER10OGRFeature">
+<span id="_CPPv3N4GisL15FeatureProperty15FeaturePropertyER10OGRFeature"></span><span id="_CPPv2N4GisL15FeatureProperty15FeaturePropertyER10OGRFeature"></span><span id="GisL::FeatureProperty::FeatureProperty__OGRFeatureR"></span><span class="target" id="classGisL_1_1FeatureProperty_1a402b7c4bfc17d73a3603f8a98afb31d3"></span><em class="property"><span class="pre">explicit</span></em> <code class="sig-name descname"><span class="pre">FeatureProperty</span></code><span class="sig-paren">(</span><span class="pre">OGRFeature</span> <span class="pre">&amp;</span><em><span class="pre">poFeature</span></em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4GisL15FeatureProperty15FeaturePropertyER10OGRFeature" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>feature property </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>poFeature</strong> -- </p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp class">
+<dt id="_CPPv4N4GisL16SpatialReferenceE">
+<span id="_CPPv3N4GisL16SpatialReferenceE"></span><span id="_CPPv2N4GisL16SpatialReferenceE"></span><span id="GisL::SpatialReference"></span><span class="target" id="classGisL_1_1SpatialReference"></span><em class="property"><span class="pre">class</span> </em><code class="sig-name descname"><span class="pre">SpatialReference</span></code><a class="headerlink" href="#_CPPv4N4GisL16SpatialReferenceE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Coordinate Reference System. </p>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="geometry.html" class="btn btn-neutral float-right" title="2. geometry" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Core" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, Wang Zhiyuan.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

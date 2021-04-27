@@ -1,0 +1,316 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zn-CN, en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>2. command &mdash; GisL 0.6.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../../_static/kfc.png"/>
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="3. painter" href="painter.html" />
+    <link rel="prev" title="1. gui" href="gui.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> GisL
+          
+
+          
+            
+            <img src="../../_static/kfc.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.6
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../codecvt.html">Codecvt</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../core/index.html">Core</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Gui</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="gui.html">1. gui</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">2. command</a></li>
+<li class="toctree-l2"><a class="reference internal" href="painter.html">3. painter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="symbolizer.html">4. symbolizer</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../utils.html">Utils</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bug.html">Bugs</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">GisL</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html">Gui</a> &raquo;</li>
+        
+      <li><span class="section-number">2. </span>command</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/code-reference/gui/command.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="command">
+<span id="sec-command"></span><span id="index-0"></span><h1><span class="section-number">2. </span>command<a class="headerlink" href="#command" title="Permalink to this headline">¶</a></h1>
+<dl class="cpp class">
+<dt id="_CPPv4N4GisL7CommandE">
+<span id="_CPPv3N4GisL7CommandE"></span><span id="_CPPv2N4GisL7CommandE"></span><span id="GisL::Command"></span><span class="target" id="classGisL_1_1Command"></span><em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">GisL</span><code class="sig-prename descclassname"><span class="pre">::</span></code></code><code class="sig-name descname"><span class="pre">Command</span></code><a class="headerlink" href="#_CPPv4N4GisL7CommandE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>Subclassed by <a class="reference internal" href="#classGisL_1_1OpenSldCommand"><span class="std std-ref">GisL::OpenSldCommand</span></a>, <a class="reference internal" href="#classGisL_1_1OpenVectorCommand"><span class="std std-ref">GisL::OpenVectorCommand</span></a></p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4NK4GisL7Command16getMErrorMessageEv">
+<span id="_CPPv3NK4GisL7Command16getMErrorMessageEv"></span><span id="_CPPv2NK4GisL7Command16getMErrorMessageEv"></span><span id="GisL::Command::getMErrorMessageC"></span><span class="target" id="classGisL_1_1Command_1aa90339aae3e6f5865a3e317c3b8d4421"></span><em class="property"><span class="pre">const</span></em> <span class="pre">std</span><span class="pre">::</span><span class="pre">string</span> <span class="pre">&amp;</span><code class="sig-name descname"><span class="pre">getMErrorMessage</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span> <em class="property"><span class="pre">const</span></em><a class="headerlink" href="#_CPPv4NK4GisL7Command16getMErrorMessageEv" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Author</strong></dt><dd><p>tau </p>
+</dd>
+<dt><strong>Date</strong></dt><dd><p>12/30/20 </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp class">
+<dt id="_CPPv4N4GisL14CommandHistoryE">
+<span id="_CPPv3N4GisL14CommandHistoryE"></span><span id="_CPPv2N4GisL14CommandHistoryE"></span><span id="GisL::CommandHistory"></span><span class="target" id="classGisL_1_1CommandHistory"></span><em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">GisL</span><code class="sig-prename descclassname"><span class="pre">::</span></code></code><code class="sig-name descname"><span class="pre">CommandHistory</span></code><a class="headerlink" href="#_CPPv4N4GisL14CommandHistoryE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p>command history, easy to undo, realization by firstCommand </p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-private-static-attributes">Private Static Attributes</p>
+<dl class="cpp var">
+<dt id="_CPPv4N4GisL14CommandHistory15_commandHistoryE">
+<span id="_CPPv3N4GisL14CommandHistory15_commandHistoryE"></span><span id="_CPPv2N4GisL14CommandHistory15_commandHistoryE"></span><span id="GisL::CommandHistory::_commandHistory__CommandHistoryP"></span><span class="target" id="classGisL_1_1CommandHistory_1ab63557eba2da5207b692146a13280e88"></span><em class="property"><span class="pre">static</span></em> <a class="reference internal" href="#_CPPv4N4GisL14CommandHistoryE" title="GisL::CommandHistory"><span class="pre">CommandHistory</span></a> <span class="pre">*</span><code class="sig-name descname"><span class="pre">_commandHistory</span></code> <span class="pre">=</span> <span class="pre">nullptr</span><a class="headerlink" href="#_CPPv4N4GisL14CommandHistory15_commandHistoryE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Author</strong></dt><dd><p>tau </p>
+</dd>
+<dt><strong>Date</strong></dt><dd><p>12/30/20 </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+</div>
+<dl class="cpp struct">
+<dt id="_CPPv4N4GisL14CommandHistory11CommandLinkE">
+<span id="_CPPv3N4GisL14CommandHistory11CommandLinkE"></span><span id="_CPPv2N4GisL14CommandHistory11CommandLinkE"></span><span id="GisL::CommandHistory::CommandLink"></span><span class="target" id="structGisL_1_1CommandHistory_1_1CommandLink"></span><em class="property"><span class="pre">struct</span> </em><code class="sig-name descname"><span class="pre">CommandLink</span></code><a class="headerlink" href="#_CPPv4N4GisL14CommandHistory11CommandLinkE" title="Permalink to this definition">¶</a><br /></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="cpp class">
+<dt id="_CPPv4N4GisL17OpenVectorCommandE">
+<span id="_CPPv3N4GisL17OpenVectorCommandE"></span><span id="_CPPv2N4GisL17OpenVectorCommandE"></span><span id="GisL::OpenVectorCommand"></span><span class="target" id="classGisL_1_1OpenVectorCommand"></span><em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">GisL</span><code class="sig-prename descclassname"><span class="pre">::</span></code></code><code class="sig-name descname"><span class="pre">OpenVectorCommand</span></code> <span class="pre">:</span> <em class="property"><span class="pre">public</span></em> <span class="pre">GisL</span><span class="pre">::</span><a class="reference internal" href="#_CPPv4N4GisL7CommandE" title="GisL::Command"><span class="pre">Command</span></a><a class="headerlink" href="#_CPPv4N4GisL17OpenVectorCommandE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4N4GisL17OpenVectorCommand7executeEP7QWidget">
+<span id="_CPPv3N4GisL17OpenVectorCommand7executeEP7QWidget"></span><span id="_CPPv2N4GisL17OpenVectorCommand7executeEP7QWidget"></span><span id="GisL::OpenVectorCommand::execute__QWidgetP"></span><span class="target" id="classGisL_1_1OpenVectorCommand_1ae1dcd605f60a05aff7af77bf084c4200"></span><em class="property"><span class="pre">virtual</span></em> <span class="pre">void</span> <code class="sig-name descname"><span class="pre">execute</span></code><span class="sig-paren">(</span><span class="pre">QWidget</span> <span class="pre">*</span><em><span class="pre">parent</span></em><span class="sig-paren">)</span> <em class="property"><span class="pre">override</span></em><a class="headerlink" href="#_CPPv4N4GisL17OpenVectorCommand7executeEP7QWidget" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Author</strong></dt><dd><p>tau </p>
+</dd>
+<dt><strong>Date</strong></dt><dd><p>12/30/20 </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp class">
+<dt id="_CPPv4N4GisL14OpenSldCommandE">
+<span id="_CPPv3N4GisL14OpenSldCommandE"></span><span id="_CPPv2N4GisL14OpenSldCommandE"></span><span id="GisL::OpenSldCommand"></span><span class="target" id="classGisL_1_1OpenSldCommand"></span><em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">GisL</span><code class="sig-prename descclassname"><span class="pre">::</span></code></code><code class="sig-name descname"><span class="pre">OpenSldCommand</span></code> <span class="pre">:</span> <em class="property"><span class="pre">public</span></em> <span class="pre">GisL</span><span class="pre">::</span><a class="reference internal" href="#_CPPv4N4GisL7CommandE" title="GisL::Command"><span class="pre">Command</span></a><a class="headerlink" href="#_CPPv4N4GisL14OpenSldCommandE" title="Permalink to this definition">¶</a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt id="_CPPv4N4GisL14OpenSldCommand7executeEP7QWidget">
+<span id="_CPPv3N4GisL14OpenSldCommand7executeEP7QWidget"></span><span id="_CPPv2N4GisL14OpenSldCommand7executeEP7QWidget"></span><span id="GisL::OpenSldCommand::execute__QWidgetP"></span><span class="target" id="classGisL_1_1OpenSldCommand_1a8a286a9af56f28ed39a9dc56e2720d11"></span><em class="property"><span class="pre">virtual</span></em> <span class="pre">void</span> <code class="sig-name descname"><span class="pre">execute</span></code><span class="sig-paren">(</span><span class="pre">QWidget</span> <span class="pre">*</span><em><span class="pre">parent</span></em><span class="sig-paren">)</span> <em class="property"><span class="pre">override</span></em><a class="headerlink" href="#_CPPv4N4GisL14OpenSldCommand7executeEP7QWidget" title="Permalink to this definition">¶</a><br /></dt>
+<dd><p><dl class="simple">
+<dt><strong>Author</strong></dt><dd><p>tau </p>
+</dd>
+<dt><strong>Date</strong></dt><dd><p>12/30/20 </p>
+</dd>
+</dl>
+</p>
+</dd></dl>
+
+</div>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="painter.html" class="btn btn-neutral float-right" title="3. painter" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="gui.html" class="btn btn-neutral float-left" title="1. gui" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, Wang Zhiyuan.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
